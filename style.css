@@ -1,7 +1,11 @@
+body{
+    height: 100vh;
+}
 .header{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    
 }
 .bar{
     display: flex;
@@ -27,13 +31,14 @@ a{
 }
 .header-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .header-copy{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    
     
 }
 
@@ -47,7 +52,89 @@ a{
     font-size: 18px;
 }
 .header-img{
-    width: 600px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
     background-color:darkgray ;
+    
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.information-content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.info-box{
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    gap: 24px;
+}
+/* .information-container{
+    display: flex;
+    justify-content: space-between;
+}     */
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100px;
+    
+}
+.caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-container{
+    background-color: #E5E7EB ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    height: 150px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name{
+   padding-left: 5vw;  
+}
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.action-container{
+    display: flex;
+    background-color: #3992F6;
+    height: 100px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.action-copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    flex: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 30px;
+    
+}
+.copyright{
+    color: #E5E7EB;
 }
