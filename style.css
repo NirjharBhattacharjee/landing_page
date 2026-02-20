@@ -77,17 +77,35 @@ a{
     flex-direction: column;
     justify-content: space-between;
     height: 25vh;
+    padding-bottom: 48px;
+    
+    
+}
+.info-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 16px;
+    font-weight: 900;
+
 }
 .information-content{
     display: flex;
     justify-content: space-between;
+    padding-left: 20vw;
+    padding-right: 20vw;
     
 }
 .info-box{
-    background-color: gray;
+    background-color: #F9FAF8;
     height: 100px;
     width: 100px;
     gap: 24px;
+    border: 6px solid #3992F6;
+    border-radius: 10%;
+    
 }
 /* .information-container{
     display: flex;
